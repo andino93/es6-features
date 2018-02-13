@@ -28,7 +28,30 @@ when using arrow functions, you must use the rest (`...`) operator to allow acce
 parameters.
 
 #### Destructuring
+Destructuring objects and arrays is a technique that makes it more convenient to access the
+necessary properties for a function and assigning them to the same variable name. It can be used in
+function parameters or within a function.
 
+```javascript
+const example = ({ key1, key2, key4 }) => {
+  console.log(`Here are some values ${key1} ${key2} ${key4}`);
+};
+
+const example2 = (object) => {
+  const { key1, key4 } = object;
+  console.log(`Here are some values ${key1} ${key2}`);
+};
+```
+Another feature of destructuring is also being able to rename the key to a new variable name if the
+key's name isn't adequate for your use case. To do that, you'll assign the value the label in which
+ you want to use in your code instead of destructuring with the same name.
+
+```javascript
+const example3 = (object) => {
+  const { key1: name, key2: age } = object;
+  console.log(`Object's name is ${name} and is ${age} years old.`);
+};
+```
 
 #### Classes
 
