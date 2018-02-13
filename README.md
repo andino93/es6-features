@@ -54,6 +54,14 @@ const example3 = (object) => {
 ```
 
 #### Classes
+Classes introduced in ES6 are syntactical sugar for prototypal inheritance. This makes it more akin
+to classes in other languages. The way that classes inherit from their parent class is by a method
+called `extends`. In addition, the `super` keyword must also be called in the constructor else the
+parent's functions will never be accessed. It is how those methods are called from the parent
+class. 
+
+Its important to note that `class` declarations are not hoisted like a `function` declaration such
+as a pseudoclassical constructor.
 
 #### Template Literals
 Template literals are used in place of string concatenation. At first, they may seem like more
