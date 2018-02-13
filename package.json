@@ -1,7 +1,7 @@
 {
-  "name": "es6lecture",
+  "name": "ES2015+ Useful Features",
   "version": "1.0.0",
-  "description": "",
+  "description": "Brief rundown on some features I find useful in ES6",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon --exec babel-node --presets env,react -- React/server/server.js & open http://localhost:3000",
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/andino93/es6-features.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andrew Nguyen",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/andino93/es6-features/issues"
   },
