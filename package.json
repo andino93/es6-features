@@ -1,10 +1,10 @@
 {
-  "name": "ES2015+ Useful Features",
+  "name": "es2015-useful-features",
   "version": "1.0.0",
   "description": "Brief rundown on some features I find useful in ES6",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --exec babel-node --presets env,react,stage-3 -- React/server/server.js & open http://localhost:3000",
+    "start:dev": "nodemon --exec babel-node React/server/server.js & open http://localhost:3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
