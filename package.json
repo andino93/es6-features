@@ -19,7 +19,6 @@
   "homepage": "https://github.com/andino93/es6-features#readme",
   "dependencies": {
     "bulma": "^0.6.2",
-    "cors": "^2.8.4",
     "express": "^4.16.2",
     "lodash": "^4.17.5",
     "path": "^0.12.7",
