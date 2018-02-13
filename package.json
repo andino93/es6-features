@@ -4,7 +4,7 @@
   "description": "Brief rundown on some features I find useful in ES6",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --exec babel-node React/server/server.js & open http://localhost:3000",
+    "start:dev": "nodemon --exec babel-node React/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
