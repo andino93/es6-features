@@ -22,7 +22,7 @@ Arrow functions are useful to clean up when using callback functions. They're al
 they're a couple less keystrokes than using the `function` keyword. Another important feature
 of arrow functions is that they bind the context in which they are executed. This means that you
 can use in place of a bind in certain situations like in a React component's onClick method or
-similar. (See line 34 of `App.jsx` for an example in practice) Arrowfunctions also are different
+similar. (See line 34 of `App.jsx` for an example in practice) Arrow functions also are different
 from `function` declarations in that they do not have access to the `arguments` object. Instead,
 when using arrow functions, you must use the rest (`...`) operator to allow access to all input
 parameters.
