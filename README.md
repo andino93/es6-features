@@ -80,5 +80,5 @@ in the React directory.
 To get the sample React App running on your local machine, just follow the steps following.
 
 - `npm install` to get things all dependencies installed
-- `npm run start:dev` to get Express to serve static content and open up the localhost to display
-the sample website.
+- `npm run start:dev` to start express server
+- Navigate to `http://localhost:3000` to try example site
