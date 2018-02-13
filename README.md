@@ -18,11 +18,14 @@ objects or arrays can be changed. Primitives such as numbers though can't be mod
 functions much like `var` but it is again, scope blocked like `const`.
 
 #### Arrow Functions
-This file is to show how simple fat arrow functions are useful to clean up when using callback
-functions. They're also useful since they're a couple less keystrokes than using the `function`
-keyword. Another important feature of arrow functions is that they bind the context in which they
-are executed. This means that you can use in place of a bind in certain situations like in a React
-component's onClick method or similar. (See line 34 of `App.jsx` for an example in practice)
+Arrow functions are useful to clean up when using callback functions. They're also useful since
+they're a couple less keystrokes than using the `function` keyword. Another important feature
+of arrow functions is that they bind the context in which they are executed. This means that you
+can use in place of a bind in certain situations like in a React component's onClick method or
+similar. (See line 34 of `App.jsx` for an example in practice) Arrowfunctions also are different
+from `function` declarations in that they do not have access to the `arguments` object. Instead,
+when using arrow functions, you must use the rest (`...`) operator to allow access to all input
+parameters.
 
 #### Destructuring
 
@@ -46,8 +49,9 @@ const template = `${screename} made this readme`
 #### Promises
 
 ## React Client
-The React folder has a client that an example of a real-world use of object destructuring. Follow
-the setup instructions to see how it works or just take a look at the code in the React directory.
+The React folder has a client that an example of a real-world use of object destructuring and arrow
+function binding. Follow the setup instructions to see how it works or just take a look at the code
+in the React directory.
 
 #### Setup
 To get the sample React App running on your local machine, just follow the steps following.
