@@ -1,5 +1,4 @@
 import express from 'express';
-import cors from 'cors';
 import path from 'path';
 import webpack from 'webpack';
 import devMiddleware from 'webpack-dev-middleware';
@@ -22,4 +21,3 @@ server.use(hotMiddleware(compiler));
 /* eslint-enable */
 
 server.use(express.static(assets));
-server.use(cors);
