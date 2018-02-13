@@ -9,7 +9,9 @@ const server = express();
 const assets = path.join(__dirname, '../client/');
 const port = 3000;
 
-server.listen(port, () => console.log(`server is listening on ${port}`));
+server.listen(port, () => {
+  console.log(`Server is listening on ${port}. Navigate to 'http://localhost:${port}' to see website`);
+});
 
 /* eslint-disable */
 const compiler = webpack(config);
