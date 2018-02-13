@@ -30,6 +30,16 @@ component's onClick method or similar. (See line 34 of `App.jsx` for an example 
 #### Classes
 
 #### Template Literals
+Template literals are used in place of string concatenation. At first, they may seem like more
+keystrokes to implement but it makes string concatenation clearer and easier to read. It uses
+a backtick (located under the tilde on most keyboards) and is not to be confused with a single
+quote. 
+
+```javascript
+const screename = 'andino93'
+const string = screename + ' ' + 'made' + ' ' + 'this' + ' ' + 'readme.'
+const template = `${screename} made this readme`
+```
 
 #### Rest and Spread Operators
 
