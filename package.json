@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --exec babel-node --presets env,react -- React/server/server.js",
+    "start:dev": "nodemon --exec babel-node --presets env,react -- React/server/server.js & open http://localhost:3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,10 +21,13 @@
     "bulma": "^0.6.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
+    "lodash": "^4.17.5",
     "path": "^0.12.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-hot-middleware": "^2.21.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -38,9 +41,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
-    "nodemon": "^1.14.12",
-    "webpack-dev-middleware": "^2.0.5",
-    "webpack-hot-middleware": "^2.21.0"
+    "nodemon": "^1.14.12"
   },
   "babel": {
     "presets": [
