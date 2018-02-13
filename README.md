@@ -78,13 +78,15 @@ const template = `${screename} made this readme`
 #### Rest and Spread Operators
 ###### Spread Operator
 The spread operator enables the extraction of items in an iterable item to be access as single
-elements. It can be used on Arrays, Objects and even Strings. 
+elements. It can be used on Arrays, Objects and even Strings.
 
 ###### Rest Operator
 The rest operator is similar to a spread operator but it is used in function parameters. It allows
 the binding of multiple arguments into a single variable name which can be accessed as an array.
 
-#### Promises
+#### Asynchronous Code
+###### Promises
+###### async/await
 
 ## React Client
 The React folder has a client that an example of a real-world use of object destructuring and arrow
