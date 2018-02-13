@@ -58,7 +58,7 @@ Classes introduced in ES6 are syntactical sugar for prototypal inheritance. This
 to classes in other languages. The way that classes inherit from their parent class is by a method
 called `extends`. In addition, the `super` keyword must also be called in the constructor else the
 parent's functions will never be accessed. It is how those methods are called from the parent
-class. 
+class.
 
 Its important to note that `class` declarations are not hoisted like a `function` declaration such
 as a pseudoclassical constructor.
@@ -76,6 +76,13 @@ const template = `${screename} made this readme`
 ```
 
 #### Rest and Spread Operators
+###### Spread Operator
+The spread operator enables the extraction of items in an iterable item to be access as single
+elements. It can be used on Arrays, Objects and even Strings. 
+
+###### Rest Operator
+The rest operator is similar to a spread operator but it is used in function parameters. It allows
+the binding of multiple arguments into a single variable name which can be accessed as an array.
 
 #### Promises
 
