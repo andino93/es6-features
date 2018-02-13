@@ -1,7 +1,7 @@
 # ES2015+ features
 Just a collection of useful features that I tend to use on a daily basis. Hopefully this is useful
-for those who are learning javascript or just exploring some of the many new features of the ES2015+
-standard. Keep in mind, that I'm using the AirBnb style guide for my examples and as such, there are
+for those who are learning Javascript or exploring some of the many new features of the ES2015+ (aka ES6)
+standard. Keep in mind, that I'm using the AirBnB style guide for my examples and as such, there are
 many other ways to go about doing what I'll be showing.
 
 ## Javascript
@@ -12,13 +12,13 @@ Example code that goes along with the following descriptions can be found the es
 This means that they are only hoisted to the top of the scope block in which they are declared.
 While at first glance, `const` and `let` may seem similar but the similarities they share end at
 them both being variable declarations. `const` is a declaration that many would call constant. This
-is a bit of a misnomer, in my opinion because `const` doesn't necessarily mean that its constant.
-`const` in Javascript just means it can't be reassigned. This means that it is still mutable so
-objects or arrays can be changed. Primitives such as numbers though can't be modified. `let`
-functions much like `var` but it is again, scope blocked like `const`.
+is a bit of a misnomer, because `const` doesn't necessarily mean that it is constant. `const` in
+Javascript means it can't be reassigned. A `const` variable is still mutable so objects or arrays
+can be changed. Primitives such as numbers though can't be modified. `let` functions much like `var`
+but it is again, scope blocked like `const`.
 
 #### Arrow Functions
-Arrow functions are useful to clean up when using callback functions. They're also useful since
+Arrow functions are useful to clean up code when using callback functions. They're also useful since
 they're a couple less keystrokes than using the `function` keyword. Another important feature
 of arrow functions is that they bind the context in which they are executed. This means that you
 can use in place of a bind in certain situations like in a React component's onClick method or
@@ -43,8 +43,8 @@ const example2 = (object) => {
 };
 ```
 Another feature of destructuring is also being able to rename the key to a new variable name if the
-key's name isn't adequate for your use case. To do that, you'll assign the value the label in which
- you want to use in your code instead of destructuring with the same name.
+key's name isn't adequate for your use case. To do that, you'll assign the value the label which you will
+use in your code instead of destructuring with the same name.
 
 ```javascript
 const example3 = (object) => {
