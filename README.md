@@ -1,8 +1,8 @@
 # ES2015+ features
 Just a collection of useful features that I tend to use on a daily basis. Hopefully this is useful
-for those who are learning Javascript or exploring some of the many new features of the ES2015+ (aka ES6)
-standard. Keep in mind, that I'm using the AirBnB style guide for my examples and as such, there are
-many other ways to go about doing what I'll be showing.
+for those who are learning Javascript or exploring some of the many new features of the ES2015+
+(aka ES6) standard. Keep in mind, that I'm using the AirBnB style guide for my examples and as such,
+there are many other ways to go about doing what I'll be showing.
 
 ## Javascript
 Example code that goes along with the following descriptions can be found the es6 directory.
@@ -43,8 +43,8 @@ const example2 = (object) => {
 };
 ```
 Another feature of destructuring is also being able to rename the key to a new variable name if the
-key's name isn't adequate for your use case. To do that, you'll assign the value the label which you will
-use in your code instead of destructuring with the same name.
+key's name isn't adequate for your use case. To do that, you'll assign the value the label which you
+will use in your code instead of destructuring with the same name.
 
 ```javascript
 const example3 = (object) => {
