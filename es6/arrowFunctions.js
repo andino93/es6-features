@@ -1,9 +1,9 @@
 /* eslint eact/react-in-jsx-scope: off, react/jsx-filename-extension: off, func-names: off,
-prefer-arrow-callback: off */
+prefer-arrow-callback: off, no-unused-vars: off */
 
-const array = [1, 2, 3, 4];
-const sumOfArrayElements = array.reduce((acc, value) => acc + value, 0);
-const productOfArrayElements = array.reduce((acc, value) => acc * value, 1);
+const nums = [1, 2, 3, 4];
+const sumOfArrayElements = nums.reduce((acc, value) => acc + value, 0);
+const productOfArrayElements = nums.reduce((acc, value) => acc * value, 1);
 
 const sum = (acc, value) => acc + value;
 const product = (acc, value) => acc * value;
