@@ -39,3 +39,6 @@ const printFirstAndLastElement = (arr) => {
 };
 
 printFirstAndLastElement(array);
+
+const [hello, there] = [1, 2];
+console.log(hello, there);
