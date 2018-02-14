@@ -21,10 +21,10 @@ const obj1 = {
 };
 
 const obj2 = {
-  name: 'Vicki Vale',
-  occupation: 'Photographer',
-  company: 'Gotham Gazette',
-  residence: 'Gotham',
+  name2: 'Vicki Vale',
+  occupation2: 'Photographer',
+  company2: 'Gotham Gazette',
+  residence2: 'Gotham',
 };
 
 const reporters = { ...obj1, ...obj2 };
@@ -50,4 +50,4 @@ const printColors = (first, second, third, ...others) => {
 };
 
 const colors = ['red', 'blue', 'yellow', 'purple', 'green', 'orange'];
-printColors(colors);
+printColors(...colors);
