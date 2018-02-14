@@ -86,7 +86,26 @@ the binding of multiple arguments into a single variable name which can be acces
 
 #### Asynchronous Code
 ###### Promises
+A promise is a proxy for a value that is not necessarily known when the promise is created. The
+Promise object was introduced into Javascript in ES2015 but they were available using external
+libraries such as `Bluebird` or `Q` prior. Those libraries tend to have many more functions that
+are quite useful as well but I'll just cover the ES6 features that are available natively now.
+
+Promises allow javascript to make asynchronous code useable in a synchronous way. When a Promise is
+created, it is awaited much like when using the callback pattern. The difference from the callback
+pattern is the Promise object has a method `.then()`, `.catch()`, and `.finally()` in place of the
+callback. `.then()` is invoked on success or fulfillment and `.catch()` is what captures errors.
+`.finally()` is run after everything else has already been worked through in the chain.
+
+There also other methods that are useful for when you have more than one Promise to resolve.
+`Promise.all()` allows you wait for an array of Promises to return and `Promise.race()` awaits for
+the first promise to return.
+
+MDN has a great breakdown of all the methods and some more examples than I have written as well.
+[Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
 ###### async/await
+
 
 ## React Client
 The React folder has a client that an example of a real-world use of object destructuring and arrow
