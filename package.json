@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/andino93/es6-features#readme",
   "dependencies": {
+    "axios": "^0.17.1",
     "bulma": "^0.6.2",
     "express": "^4.16.2",
     "lodash": "^4.17.5",
