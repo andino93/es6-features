@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="title">Exmaple Form:</div>
+        <div className="title">Example Form:</div>
         <div className="field">
           <div className="label" htmlFor="name">Name:</div>
           <div className="control">
